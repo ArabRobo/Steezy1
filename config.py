@@ -30,7 +30,7 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://mgxvqgbd:8ZEFi4roxaZ9olY5wYS-FLwEUIVuDmyZ@floppy.db.elephantsql.com/mgxvqgbd")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://mlgtvjnp:gE9nY0JzTQwqwa1aaE_hRvSr1CBrlY8L@castor.db.elephantsql.com/mlgtvjnp")
 
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
 
